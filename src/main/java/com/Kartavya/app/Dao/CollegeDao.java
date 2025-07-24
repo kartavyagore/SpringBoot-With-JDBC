@@ -11,9 +11,9 @@ import com.Kartavya.app.entity.College;
 
 public class CollegeDao {
 
-	private static final String url = "jdbc:mysql://localhost:3306/college"; 
-	private static final String uname = "root"; 
-	private static final String password = "KartavyaGore@123"; 
+	private static final String url = "yourURL"; 
+	private static final String uname = "yourUsername"; 
+	private static final String password = "yourPassword"; 
 	
 	private PreparedStatement ps = null;
 	Connection con = null;
